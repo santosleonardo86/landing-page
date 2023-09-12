@@ -100,7 +100,7 @@ section {
 .info .imgs {
     display: flex;
     text-align: center;
-    gap: 20px;
+    gap: 26px;
     flex-wrap: wrap;
 }
 
@@ -164,11 +164,15 @@ section {
 
 @media screen and (max-width: 1469px) {
     nav {
-        padding: 10px 15%;
+        padding: 10px 17%;
     }
 
-    section {
-        padding: 80px 15% !important;
+    .hero {
+        padding: 80px 17%;
+    }
+
+    .info {
+        padding: 80px 19%;
     }
 }
 
@@ -184,8 +188,12 @@ section {
         padding: 10px 100px;
     }
 
-    section {
-        padding: 80px 100px !important;
+    .hero {
+        padding: 80px 100px;
+    }
+
+    .info h2 {
+        font-size: 2rem;
     }
 }
 
@@ -197,6 +205,10 @@ section {
 
     .info {
         text-align: center;
+    }
+
+    .info h2 {
+        font-size: 1.6rem;
     }
 
     .modal2 {
@@ -220,12 +232,6 @@ section {
     }
 }
 
-@media screen and (max-width: 757px) {
-    .hero-text h1 {
-        font-size: 2.78rem;
-    }
-}
-
 @media screen and (max-width: 794px) {
     .modal2 {
         flex-direction: column;
@@ -237,6 +243,25 @@ section {
         padding: 8px 50px;
     }
 }
+
+@media screen and (max-width: 757px) {
+    .hero-text h1 {
+        font-size: 2.78rem;
+    }
+
+    .info {
+        padding: 40px 40px;
+    }
+
+    .info .imgs {
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+
 
 @media screen and (max-width: 719px) {
     nav {
