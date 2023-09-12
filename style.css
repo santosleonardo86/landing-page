@@ -288,4 +288,8 @@ section {
     .info h2 {
         font-size: 1.80rem;
     }
+
+    .div-img .odin {
+        min-width: auto !important;
+    }
 }
